@@ -7,6 +7,30 @@ It is strongly encouraged that you do not view my solutions unless you've
 already solved the relevant problems yourself.
 
 
+## Development Notes
+
+### Local Environment
+
+- Linux
+- Node.js ~12
+- Yarn ~1
+
+### Initial Setup
+
+```shell
+$ git clone https://github.com/rdtsc/microcontest-solutions
+$ cd microcontest-solutions
+$ yarn
+$ yarn mc setup
+
+µContest Auth Token Setup
+-------------------------
+Username: user
+Password: ********
+Saved in /home/user/microcontest-solutions/auth.json
+```
+
+
 ## License and Copyright
 
 All original code is released under the [MIT license][mit], unless otherwise

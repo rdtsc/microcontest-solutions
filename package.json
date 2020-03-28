@@ -1,5 +1,17 @@
 {
   "name": "microcontest-solutions",
   "version": "0.0.0",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "fs-extra": "^9.0.0",
+    "jsonschema": "^1.2.5",
+    "leven": "^3.1.0",
+    "readline-sync": "^1.4.10",
+    "shelljs": "^0.8.3",
+    "wavy": "^1.0.4"
+  },
+  "scripts": {
+    "mc": "node scripts/mc",
+    "postinstall": "node node_modules/wavy/postinstall"
+  }
 }
