@@ -12,12 +12,12 @@ already solved the relevant problems yourself.
 ### Local Environment
 
 - Linux
-- Node.js ~12
-- Yarn ~1
+- Node.js ~v12
+- Yarn ~v1
 
 ### Initial Setup
 
-```shell
+```text
 $ git clone https://github.com/rdtsc/microcontest-solutions
 $ cd microcontest-solutions
 $ yarn
