@@ -1,6 +1,5 @@
 # µContest Solutions
 
-
 This repository houses my personal solutions to
 [µContest's programming challenges][challenges].
 
