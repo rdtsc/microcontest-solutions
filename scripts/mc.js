@@ -2,13 +2,14 @@
 
 'use strict';
 
+const {red, yellow}   = require('chalk'),
+      getEditDistance = require('leven');
+
 if(process.argv.length < 3)
 {
-  console.log('No command specified.');
+  console.log(red('No command specified.'));
   process.exit(1);
 }
-
-const getEditDistance = require('leven');
 
 const commands = Object.freeze
 ({
@@ -48,7 +49,7 @@ if(!(cmd in commands))
 {
   const suggestions = getCommandSuggestions(cmd);
 
-  process.stdout.write(`Command "${cmd}" is not defined.`);
+  process.stdout.write(`Command "${red(cmd)}" is not defined.`);
 
   if(suggestions.length)
   {
@@ -56,13 +57,13 @@ if(!(cmd in commands))
 
     if(suggestions.length === 1)
     {
-      console.log(`Did you mean "${suggestions[0]}"?`);
+      console.log(`Did you mean "${yellow(suggestions[0])}"?`);
     }
 
     else
     {
       console.log('Did you mean one of these?');
-      console.log(suggestions.map(cmd => `  ${cmd}`).join('\n'));
+      console.log(suggestions.map(cmd => `  ${yellow(cmd)}`).join('\n'));
     }
   }
 

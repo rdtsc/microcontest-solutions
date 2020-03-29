@@ -5,6 +5,7 @@
 const fs         = require('fs-extra'),
       ask        = require('readline-sync'),
       path       = require('path'),
+      chalk      = require('chalk'),
       shell      = require('shelljs'),
       assert     = require('assert'),
       crypto     = require('crypto'),
@@ -13,6 +14,8 @@ const fs         = require('fs-extra'),
 const projectRootPath = path.dirname(require.resolve('~/package')),
       authTokenPath   = path.join(projectRootPath, 'auth.json'),
       authTokenSchema = require('~/schemas/auth');
+
+const ok = (msg) => console.log(chalk.green(msg));
 
 function skipGitWorktree(path)
 {
@@ -59,14 +62,14 @@ try
     throw new Error('Malformed auth token');
   }
 
-  console.log(`µContest auth token already exists for "${token.username}".`);
+  ok(`µContest auth token already exists for "${token.username}".`);
 }
 
 catch(error)
 {
   fs.writeJsonSync(authTokenPath, makeAuthToken(), {spaces: 2});
 
-  console.log(`Saved in ${authTokenPath}\n`);
+  ok(`Saved in ${authTokenPath}\n`);
 
   assert(skipGitWorktree(authTokenPath));
 }
