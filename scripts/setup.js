@@ -3,7 +3,7 @@
 'use strict';
 
 const fs         = require('fs-extra'),
-      ask        = require('readline-sync'),
+      ask        = require('prompt-sync')({sigint: true}),
       path       = require('path'),
       chalk      = require('chalk'),
       shell      = require('shelljs'),
@@ -28,7 +28,12 @@ function makeAuthToken()
   {
     for(var value = ''; !value.length;)
     {
-      value = ask.question(`${prompt}: `, options);
+      value = ask(`${prompt}: `, options);
+
+      if(!('echo' in options))
+      {
+        value = value.trim();
+      }
     }
 
     return value;
@@ -45,7 +50,7 @@ function makeAuthToken()
   const token =
   {
     username: get('Username'),
-    password: get('Password', {hideEchoBack: true, keepWhitespace: true})
+    password: get('Password', {echo: '*'})
   };
 
   token.password = sha1(token.password);
