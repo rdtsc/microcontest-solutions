@@ -13,7 +13,7 @@ const fs         = require('fs-extra'),
 
 const projectRootPath = path.dirname(require.resolve('~/package')),
       authTokenPath   = path.join(projectRootPath, 'auth.json'),
-      authTokenSchema = require('~/schemas/auth');
+      authTokenSchema = require('~/schemas/platform/auth');
 
 const ok = (msg) => console.log(chalk.green(msg));
 
