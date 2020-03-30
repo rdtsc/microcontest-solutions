@@ -77,4 +77,8 @@ if(!(cmd in commands))
   process.exit(1);
 }
 
+process.argv[1] = require.resolve(commands[cmd]);
+
+process.argv.splice(2, 1);
+
 require(commands[cmd]);
