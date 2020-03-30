@@ -5,16 +5,18 @@
 const {red, yellow}   = require('chalk'),
       getEditDistance = require('leven');
 
-if(process.argv.length < 3)
-{
-  console.log(red('No command specified.'));
-  process.exit(1);
-}
-
 const commands = Object.freeze
 ({
   setup: './setup'
 });
+
+if(process.argv.length < 3)
+{
+  console.log('No command specified. Available commands:');
+  console.log(Object.keys(commands).map(cmd => `  ${yellow(cmd)}`).join('\n'));
+
+  process.exit(1);
+}
 
 function getCommandSuggestions(cmd, maxEditDistance = 3)
 {
