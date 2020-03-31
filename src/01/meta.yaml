@@ -1,0 +1,18 @@
+id: 1
+name: Sum of Two Numbers
+category: Mathematics
+url: 'http://www.microcontest.com/contest.php?id=1&lang=en'
+inputs:
+  - name: a
+    type: Integer
+    cType: int
+    description: N/A
+  - name: b
+    type: Integer
+    cType: int
+    description: N/A
+outputs:
+  - name: s
+    type: Integer
+    cType: int
+    description: Sum of a and b
