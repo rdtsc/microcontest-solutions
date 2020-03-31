@@ -82,14 +82,10 @@ The `mc init` task is responsible for creating solution boilerplate files which
 currently include the following actions:
 
 - Solution directory creation in `./src` based on the problem's ID.
-
 - Creation of an initial Markdown readme with the problem's HTML description
   and parsed I/O. (`readme.md`)
-
 - Mirroring of referenced images in the generated readme, if any. (`extra/*`)
-
 - Creation of the problem's metadata in YAML for future use. (`meta.yaml`)
-
 - Creation of a skeleton solution file with the required I/O arguments
   in JS. (`solve.js`)
 
