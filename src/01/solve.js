@@ -4,7 +4,4 @@
 
 const {solve} = require('~/lib/mc');
 
-solve(1, ({a, b}) =>
-{
-  return {s: a + b};
-});
+solve(1, ({a, b}) => ({s: a + b}));
