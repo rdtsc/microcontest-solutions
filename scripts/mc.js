@@ -7,7 +7,8 @@ const {red, yellow}   = require('chalk'),
 
 const commands = Object.freeze
 ({
-  setup: './setup'
+  setup: './setup',
+  init : './init'
 });
 
 if(process.argv.length < 3)

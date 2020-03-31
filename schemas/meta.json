@@ -1,0 +1,43 @@
+{
+  "type": "object",
+
+  "required": ["id", "name", "category", "url"],
+
+  "properties":
+  {
+    "id":
+    {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 58
+    },
+
+    "name":
+    {
+      "type": "string",
+      "minLength": 1
+    },
+
+    "category":
+    {
+      "type": "string",
+      "enum":
+      [
+        "AI",
+        "Cryptography",
+        "Mathematics",
+        "Miscellaneous",
+        "Multimedia",
+        "Network",
+        "Physics"
+      ]
+    },
+
+    "url":
+    {
+      "type": "string",
+      "format": "uri",
+      "minLength": 1
+    }
+  }
+}
