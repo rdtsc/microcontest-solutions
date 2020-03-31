@@ -44,12 +44,14 @@ The `mc setup` task is responsible for generating a µContest authentication
 token and should only be executed upon initial setup or when site account
 credentials change.
 
-:warning: *Note that as per the platform's specifications, part of the token
-contains a plain SHA-1 hash of the site's account password. µContest
-**does not** currently implement HTTPS so all communication is in plain-text!*
-
 The generated token is stored in `./auth.json` and is automatically removed
 from Git's working tree upon successful creation.
+
+:warning: **Warning!**
+
+*Note that as per the platform's specifications, part of the token
+contains a plain SHA-1 hash of the site's account password. µContest
+**does not** currently implement HTTPS so all communication is in plain-text!*
 
 Usage:
 
