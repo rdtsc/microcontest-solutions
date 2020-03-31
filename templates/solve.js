@@ -4,7 +4,7 @@
 
 const {solve} = require('~/lib/mc');
 
-solve({{{ id }}}, ({{{ args }}}) =>
+solve({{{ id }}}, {{=[ ]=}}({[ &args ]})[={{ }}=] =>
 {
   const result = {{{ results }}};
 

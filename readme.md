@@ -148,7 +148,7 @@ $ cat src/20/solve.js
 
 const {solve} = require('~/lib/mc');
 
-solve(20, (img) =>
+solve(20, ({img}) =>
 {
   const result =
   {
