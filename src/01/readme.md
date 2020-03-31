@@ -7,9 +7,11 @@
 
 ## Description
 
-The contest is simple : you have to get both integers <code>a</code> and <code>b</code>, and return the sum <code>s</code>.
+The contest is simple: you have to get both integers `a` and `b`, and return
+the sum `s`.
 
-To help you, the solution of this contest is described in detail on the page To begin.
+To help you, the solution of this contest is described in detail on the page
+`http://www.microcontest.com/begin.php`.
 
 
 ## I/O
