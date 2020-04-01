@@ -1,0 +1,20 @@
+id: 13
+name: A Sorting Problem
+category: Miscellaneous
+url: 'http://www.microcontest.com/contest.php?id=13&lang=en'
+inputs:
+  - name: tableau
+    type: String
+    cType: char*
+    description: Array to sort
+  - name: ordre
+    type: Integer
+    cType: int
+    description: >-
+      Indicate whether the array has to be sorted in the ascending order (ordre
+      = 0) or descending order (ordre = 1)
+outputs:
+  - name: tableau_classe
+    type: String
+    cType: char*
+    description: Sorted array
