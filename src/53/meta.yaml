@@ -1,0 +1,30 @@
+id: 53
+name: BMI & BFP
+category: Mathematics
+url: 'http://www.microcontest.com/contest.php?id=53&lang=en'
+inputs:
+  - name: mass
+    type: Integer
+    cType: int
+    description: 'The person''s mass, in kg'
+  - name: height
+    type: Integer
+    cType: int
+    description: The person's height in cm
+  - name: sex
+    type: Integer
+    cType: int
+    description: '0 if the person is a female, 1 otherwise'
+  - name: age
+    type: Integer
+    cType: int
+    description: The person's age
+outputs:
+  - name: bmi
+    type: Real
+    cType: float
+    description: The person's body mass index
+  - name: bfp
+    type: Real
+    cType: float
+    description: 'The person''s body fat percentage, in %'
