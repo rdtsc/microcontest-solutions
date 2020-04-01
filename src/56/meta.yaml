@@ -1,0 +1,22 @@
+id: 56
+name: Image Color
+category: Multimedia
+url: 'http://www.microcontest.com/contest.php?id=56&lang=en'
+inputs:
+  - name: img_b64
+    type: String
+    cType: char*
+    description: 'The image, in png, encoded in base64'
+outputs:
+  - name: r
+    type: Integer
+    cType: int
+    description: The red part of the image color
+  - name: g
+    type: Integer
+    cType: int
+    description: The green part of the image color
+  - name: b
+    type: Integer
+    cType: int
+    description: The blue part of the image color
