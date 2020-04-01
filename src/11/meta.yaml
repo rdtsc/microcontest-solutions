@@ -1,0 +1,14 @@
+id: 11
+name: Vigenère II
+category: Cryptography
+url: 'http://www.microcontest.com/contest.php?id=11&lang=en'
+inputs:
+  - name: txt_crypte
+    type: String
+    cType: char*
+    description: Text to decrypt
+outputs:
+  - name: txt_clair
+    type: String
+    cType: char*
+    description: Decrypted text
