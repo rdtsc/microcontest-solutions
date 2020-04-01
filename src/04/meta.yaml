@@ -1,0 +1,18 @@
+id: 4
+name: Ave Caesar I
+category: Cryptography
+url: 'http://www.microcontest.com/contest.php?id=4&lang=en'
+inputs:
+  - name: txt_crypte
+    type: String
+    cType: char*
+    description: Text to decrypt
+  - name: key
+    type: Integer
+    cType: int
+    description: Encryption key
+outputs:
+  - name: txt_clair
+    type: String
+    cType: char*
+    description: Decrypted text
