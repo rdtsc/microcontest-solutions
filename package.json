@@ -21,6 +21,7 @@
     "parse-http-header": "^1.0.1",
     "prompt-sync": "^4.2.0",
     "remove-punctuation": "^0.0.4",
+    "rle-data": "^0.1.1",
     "shelljs": "^0.8.3",
     "text-cryptography": "^1.1.0",
     "titlecase": "^1.1.3",

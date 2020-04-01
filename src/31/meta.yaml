@@ -1,0 +1,27 @@
+id: 31
+name: Data Compression I
+category: Miscellaneous
+url: 'http://www.microcontest.com/contest.php?id=31&lang=en'
+inputs:
+  - name: donnees_a_compresser
+    type: String
+    cType: char*
+    description: >-
+      String you have to compress with RLE algorithm. You have to send back the
+      result in the variable resultat_compression
+  - name: donnees_a_decompresser
+    type: String
+    cType: char*
+    description: >-
+      String you have to decompress. It is the result of a compression with RLE
+      algorithm. You have to send back the result in the variable
+      resultat_decompression
+outputs:
+  - name: resultat_compression
+    type: String
+    cType: char*
+    description: Result of the RLE compression of donnees_a_compresser
+  - name: resultat_decompression
+    type: String
+    cType: char*
+    description: Result of the RLE decompression of donnees_a_decompresser
