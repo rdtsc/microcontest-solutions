@@ -1,7 +1,6 @@
 'use strict';
 
-const fs      = require('fs-extra'),
-      toCamel = require('camelcase');
+const fs = require('fs-extra');
 
 const echo   = require('./echo'),
       render = require('./render');
@@ -16,8 +15,8 @@ module.exports = (solutionPath, problem) =>
     const view =
     {
       id:      problem.id,
-      args:    get('inputs').map(toCamel),
-      results: get('outputs'),
+      args:    get('inputs'),
+      results: get('outputs')
     };
 
     fs.writeFileSync(solutionPath, render.solution(view));
