@@ -7,7 +7,7 @@ static unsigned fn(const unsigned seed, const unsigned input)
    unsigned out = 0,
             val = seed % ((input & 32) + 1);
 
-   out = seed & ~input;
+   out  = seed & ~input;
    out ^= (input >> val) | (input << val);
 
    return out;
