@@ -3,7 +3,7 @@
 This repository houses my personal solutions to
 [µContest's programming challenges][challenges].
 
-The site's is mostly in French with some English translations here and there.
+The site is mostly in French with some English translations here and there.
 Almost all API endpoints are implemented in French, so expect solutions to
 contain an awkward mix of variable names in English/French.
 
