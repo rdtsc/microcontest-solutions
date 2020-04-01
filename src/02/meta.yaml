@@ -1,0 +1,26 @@
+id: 2
+name: Second Order Equation
+category: Mathematics
+url: 'http://www.microcontest.com/contest.php?id=2&lang=en'
+inputs:
+  - name: a
+    type: Real
+    cType: float
+    description: N/A
+  - name: b
+    type: Real
+    cType: float
+    description: N/A
+  - name: c
+    type: Real
+    cType: float
+    description: N/A
+outputs:
+  - name: x1
+    type: Real
+    cType: float
+    description: solution 1
+  - name: x2
+    type: Real
+    cType: float
+    description: solution 2
