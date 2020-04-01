@@ -1,0 +1,38 @@
+id: 37
+name: Language Detection
+category: AI
+url: 'http://www.microcontest.com/contest.php?id=37&lang=en'
+inputs:
+  - name: txt1
+    type: String
+    cType: char*
+    description: The text 1
+  - name: txt2
+    type: String
+    cType: char*
+    description: The text 2
+  - name: txt3
+    type: String
+    cType: char*
+    description: The text 3
+  - name: txt4
+    type: String
+    cType: char*
+    description: The text 4
+outputs:
+  - name: lang1
+    type: String
+    cType: char*
+    description: The code of the language of the text 1
+  - name: lang2
+    type: String
+    cType: char*
+    description: The code of the language of the text 2
+  - name: lang3
+    type: String
+    cType: char*
+    description: The code of the language of the text 3
+  - name: lang4
+    type: String
+    cType: char*
+    description: The code of the language of the text 4
