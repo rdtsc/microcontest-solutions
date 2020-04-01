@@ -1,0 +1,18 @@
+id: 14
+name: What's the Captain Age ?
+category: Mathematics
+url: 'http://www.microcontest.com/contest.php?id=14&lang=en'
+inputs:
+  - name: naissance
+    type: Integer
+    cType: int
+    description: Year of birth of the person we search the age
+  - name: date_courante
+    type: Integer
+    cType: int
+    description: Current year
+outputs:
+  - name: age
+    type: Integer
+    cType: int
+    description: Age of the person
