@@ -16,6 +16,7 @@
     "linear-quadratic-cubic-eq-solver": "^0.0.4",
     "markdown-table": "^2.0.0",
     "mkdirp": "^1.0.3",
+    "moment": "^2.24.0",
     "mustache": "^4.0.1",
     "parse-http-header": "^1.0.1",
     "prompt-sync": "^4.2.0",

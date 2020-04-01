@@ -1,0 +1,16 @@
+id: 18
+name: Timestamp
+category: Mathematics
+url: 'http://www.microcontest.com/contest.php?id=18&lang=en'
+inputs:
+  - name: date
+    type: String
+    cType: char*
+    description: >-
+      Current date. Be careful: it is given for France, i.e. GMT+1 (GMT+2 in
+      summer)
+outputs:
+  - name: timestamp
+    type: Integer
+    cType: int
+    description: 'Number of seconds that passed since the 1st of January, 1970, 00:00:00'
