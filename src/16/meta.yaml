@@ -1,0 +1,14 @@
+id: 16
+name: Research in a String
+category: Miscellaneous
+url: 'http://www.microcontest.com/contest.php?id=16&lang=en'
+inputs:
+  - name: chaine
+    type: String
+    cType: char*
+    description: String containing the real to send back
+outputs:
+  - name: nombre
+    type: Real
+    cType: float
+    description: Decimal number in chaine
