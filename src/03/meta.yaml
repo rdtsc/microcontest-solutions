@@ -1,0 +1,18 @@
+id: 3
+name: Do You Know How to Count ?
+category: Miscellaneous
+url: 'http://www.microcontest.com/contest.php?id=3&lang=en'
+inputs:
+  - name: texte
+    type: String
+    cType: char*
+    description: N/A
+  - name: mot
+    type: String
+    cType: char*
+    description: N/A
+outputs:
+  - name: occ
+    type: Integer
+    cType: int
+    description: Number of occurrences of "mot" in "texte"

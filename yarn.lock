@@ -404,6 +404,11 @@ rechoir@^0.6.2:
   dependencies:
     resolve "^1.1.6"
 
+remove-punctuation@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/remove-punctuation/-/remove-punctuation-0.0.4.tgz#bc6d365ffd0488ce21e8094168493fcc2baf1e34"
+  integrity sha1-vG02X/0EiM4h6AlBaEk/zCuvHjQ=
+
 repeat-string@^1.0.0:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/repeat-string/-/repeat-string-1.6.1.tgz#8dcae470e1c88abc2d600fff4a776286da75e637"
