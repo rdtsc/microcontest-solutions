@@ -18,6 +18,7 @@ already solved the relevant problems yourself.
 - Linux
 - Node.js ~v12
 - Yarn ~v1
+- GCC ~v9
 
 ### Initial Setup
 

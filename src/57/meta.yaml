@@ -1,0 +1,20 @@
+id: 57
+name: Strange Function
+category: Miscellaneous
+url: 'http://www.microcontest.com/contest.php?id=57&lang=en'
+inputs:
+  - name: seed
+    type: Integer
+    cType: int
+    description: N/A
+  - name: output
+    type: Integer
+    cType: int
+    description: The function's output
+outputs:
+  - name: input
+    type: Integer
+    cType: int
+    description: >-
+      The input variable, which given to the function with seed, gives the
+      output
