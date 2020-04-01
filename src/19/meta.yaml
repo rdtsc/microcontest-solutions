@@ -1,0 +1,14 @@
+id: 19
+name: Calculator I
+category: Mathematics
+url: 'http://www.microcontest.com/contest.php?id=19&lang=en'
+inputs:
+  - name: expr
+    type: String
+    cType: char*
+    description: Mathematical expression
+outputs:
+  - name: result
+    type: Real
+    cType: float
+    description: Result of the evaluation
