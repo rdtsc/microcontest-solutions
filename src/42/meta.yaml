@@ -1,0 +1,18 @@
+id: 42
+name: String Manipulation I
+category: Miscellaneous
+url: 'http://www.microcontest.com/contest.php?id=42&lang=en'
+inputs:
+  - name: s1
+    type: String
+    cType: char*
+    description: N/A
+  - name: s2
+    type: String
+    cType: char*
+    description: N/A
+outputs:
+  - name: s3
+    type: String
+    cType: char*
+    description: The concatenation of s1 and s2
