@@ -1,0 +1,14 @@
+id: 50
+name: Base64
+category: Cryptography
+url: 'http://www.microcontest.com/contest.php?id=50&lang=en'
+inputs:
+  - name: big_number
+    type: String
+    cType: char*
+    description: 'The string representing the integer to divide, encoded in base64'
+outputs:
+  - name: half_big_number
+    type: String
+    cType: char*
+    description: The base64 encoding of the half of the number represented by big_number
