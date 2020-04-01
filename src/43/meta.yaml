@@ -1,0 +1,14 @@
+id: 43
+name: String Manipulation II
+category: Miscellaneous
+url: 'http://www.microcontest.com/contest.php?id=43&lang=en'
+inputs:
+  - name: s
+    type: String
+    cType: char*
+    description: The string you have to reverse
+outputs:
+  - name: s_rev
+    type: String
+    cType: char*
+    description: s reversed
