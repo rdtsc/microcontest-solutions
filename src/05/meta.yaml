@@ -1,0 +1,30 @@
+id: 5
+name: Ave Caesar II
+category: Cryptography
+url: 'http://www.microcontest.com/contest.php?id=5&lang=en'
+inputs:
+  - name: txt_crypte1
+    type: String
+    cType: char*
+    description: Text 1 to decrypt
+  - name: txt_crypte2
+    type: String
+    cType: char*
+    description: Text 2 to decrypt
+  - name: txt_crypte3
+    type: String
+    cType: char*
+    description: Text 3 to decrypt
+outputs:
+  - name: txt_clair1
+    type: String
+    cType: char*
+    description: Decrypted text 1
+  - name: txt_clair2
+    type: String
+    cType: char*
+    description: Decrypted text 2
+  - name: txt_clair3
+    type: String
+    cType: char*
+    description: Decrypted text 3
