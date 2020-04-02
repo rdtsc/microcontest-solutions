@@ -1,0 +1,18 @@
+id: 12
+name: Matrices
+category: Mathematics
+url: 'http://www.microcontest.com/contest.php?id=12&lang=en'
+inputs:
+  - name: A
+    type: String
+    cType: char*
+    description: 'Matrix A, coded as explained above'
+  - name: B
+    type: String
+    cType: char*
+    description: 'Matrix B, coded as explained above'
+outputs:
+  - name: M
+    type: String
+    cType: char*
+    description: 'Matrix M, coded as explained above'
