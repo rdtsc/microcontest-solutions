@@ -1,0 +1,30 @@
+id: 44
+name: HTML Parsing
+category: Network
+url: 'http://www.microcontest.com/contest.php?id=44&lang=en'
+inputs:
+  - name: username
+    type: String
+    cType: char*
+    description: The username of the profile to analyze
+outputs:
+  - name: score
+    type: Integer
+    cType: int
+    description: 'The score of ‹username› on http://www.wechall.net/en/profile/‹username›'
+  - name: rank
+    type: Integer
+    cType: int
+    description: 'The rank of ‹username› on http://www.wechall.net/en/profile/‹username›'
+  - name: register_date
+    type: String
+    cType: char*
+    description: >-
+      The register date of ‹username› on
+      http://www.wechall.net/en/profile/‹username›
+  - name: last_activity
+    type: String
+    cType: char*
+    description: >-
+      The date of last activity of ‹username› on
+      http://www.wechall.net/en/profile/‹username›
