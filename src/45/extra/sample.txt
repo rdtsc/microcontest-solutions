@@ -1,0 +1,107 @@
+0 1 1 0 1               Initial tape; State : A
+|
+
+1 1 1 0 1               Iteration : 1; State : B
+  |
+
+1 1 1 0 1               Iteration : 2; State : B
+    |
+
+1 1 1 0 1               Iteration : 3; State : B
+      |
+
+1 1 1 1 1               Iteration : 4; State : C
+        |
+
+1 1 1 1 0               Iteration : 5; State : E
+      |
+
+1 1 1 0 0               Iteration : 6; State : A
+    |
+
+1 1 1 0 0               Iteration : 7; State : C
+  |
+
+1 0 1 0 0               Iteration : 8; State : E
+|
+
+0 0 0 1 0 0             Iteration : 9; State : A
+|
+
+1 0 0 1 0 0             Iteration : 10; State : B
+  |
+
+1 1 0 1 0 0             Iteration : 11; State : C
+    |
+
+1 1 1 1 0 0             Iteration : 12; State : D
+      |
+
+1 1 1 1 0 0             Iteration : 13; State : D
+    |
+
+1 1 1 1 0 0             Iteration : 14; State : D
+  |
+
+1 1 1 1 0 0             Iteration : 15; State : D
+|
+
+0 1 1 1 1 0 0           Iteration : 16; State : D
+|
+
+0 1 1 1 1 1 0 0         Iteration : 17; State : A
+|
+
+1 1 1 1 1 1 0 0         Iteration : 18; State : B
+  |
+
+1 1 1 1 1 1 0 0         Iteration : 19; State : B
+    |
+
+1 1 1 1 1 1 0 0         Iteration : 20; State : B
+      |
+
+1 1 1 1 1 1 0 0         Iteration : 21; State : B
+        |
+
+1 1 1 1 1 1 0 0         Iteration : 22; State : B
+          |
+
+1 1 1 1 1 1 0 0         Iteration : 23; State : B
+            |
+
+1 1 1 1 1 1 1 0         Iteration : 24; State : C
+              |
+
+1 1 1 1 1 1 1 1 0       Iteration : 25; State : D
+                |
+
+1 1 1 1 1 1 1 1 1       Iteration : 26; State : A
+              |
+
+1 1 1 1 1 1 1 1 1       Iteration : 27; State : C
+            |
+
+1 1 1 1 1 1 0 1 1       Iteration : 28; State : E
+          |
+
+1 1 1 1 1 0 0 1 1       Iteration : 29; State : A
+        |
+
+1 1 1 1 1 0 0 1 1       Iteration : 30; State : C
+      |
+
+1 1 1 0 1 0 0 1 1       Iteration : 31; State : E
+    |
+
+1 1 0 0 1 0 0 1 1       Iteration : 32; State : A
+  |
+
+1 1 0 0 1 0 0 1 1       Iteration : 33; State : C
+|
+
+0 0 1 0 0 1 0 0 1 1     Iteration : 34; State : E
+|
+
+1 0 1 0 0 1 0 0 1 1     Iteration : 35; State : F
+  |

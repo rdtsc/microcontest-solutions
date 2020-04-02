@@ -1,0 +1,18 @@
+id: 45
+name: Turing Machine I
+category: Miscellaneous
+url: 'http://www.microcontest.com/contest.php?id=45&lang=en'
+inputs:
+  - name: tape
+    type: String
+    cType: char*
+    description: >-
+      The initial tape. The reading and writing head is initially on the first
+      symbol of the tape.
+outputs:
+  - name: final_tape_state
+    type: String
+    cType: char*
+    description: >-
+      The final tape state. If the final state is not reached before the 1000th
+      iteration, return the tape after this 1000th iteration.
