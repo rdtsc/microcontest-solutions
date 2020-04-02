@@ -1,0 +1,26 @@
+id: 25
+name: Polynomial Regression
+category: Mathematics
+url: 'http://www.microcontest.com/contest.php?id=25&lang=en'
+inputs:
+  - name: nb_points
+    type: Integer
+    cType: int
+    description: Number of points
+  - name: xi
+    type: Integer
+    cType: int
+    description: x-coordinate of point i
+  - name: yi
+    type: Integer
+    cType: int
+    description: y-coordinate of point i
+outputs:
+  - name: degre
+    type: Integer
+    cType: int
+    description: Order of your polynomial
+  - name: ai
+    type: Real
+    cType: float
+    description: 'Coefficient number i, in the order explained in the description'
