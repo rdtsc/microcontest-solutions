@@ -1,0 +1,16 @@
+id: 20
+name: Optical Character Recognition I
+category: AI
+url: 'http://www.microcontest.com/contest.php?id=20&lang=en'
+inputs:
+  - name: img
+    type: String
+    cType: char*
+    description: >-
+      PNG image. Be careful: this buffer may contain null characters, use the
+      provided length instead of the function strlen.
+outputs:
+  - name: text
+    type: String
+    cType: char*
+    description: Text in the image
