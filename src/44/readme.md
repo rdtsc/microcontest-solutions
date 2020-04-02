@@ -42,9 +42,9 @@ last_activity = Apr 24, 2013 - 23:58:19
 
 ### Outputs
 
-| Variable Name     | Type    | C Type | Description                                                                             |
-| ----------------- | ------- | ------ | --------------------------------------------------------------------------------------- |
-| **score**         | Integer | int    | The score of ‹username› on http://www.wechall.net/en/profile/‹username›                 |
-| **rank**          | Integer | int    | The rank of ‹username› on http://www.wechall.net/en/profile/‹username›                  |
-| **register_date** | String  | char*  | The register date of ‹username› on http://www.wechall.net/en/profile/‹username›         |
-| **last_activity** | String  | char*  | The date of last activity of ‹username› on http://www.wechall.net/en/profile/‹username› |
+| Variable Name     | Type    | C Type | Description                                                                               |
+| ----------------- | ------- | ------ | ----------------------------------------------------------------------------------------- |
+| **score**         | Integer | int    | The score of ‹username› on `http://www.wechall.net/en/profile/‹username›`                 |
+| **rank**          | Integer | int    | The rank of ‹username› on `http://www.wechall.net/en/profile/‹username›`                  |
+| **register_date** | String  | char*  | The register date of ‹username› on `http://www.wechall.net/en/profile/‹username›`         |
+| **last_activity** | String  | char*  | The date of last activity of ‹username› on `http://www.wechall.net/en/profile/‹username›` |
