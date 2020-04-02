@@ -1,0 +1,17 @@
+id: 15
+name: HTTP
+category: Network
+url: 'http://www.microcontest.com/contest.php?id=15&lang=en'
+inputs:
+  - name: x
+    type: Integer
+    cType: int
+    description: >-
+      Integer to pass to the page
+      http://www.microcontest.com/contests/15/nombre.php, as described
+      previously
+outputs:
+  - name: 'y'
+    type: Real
+    cType: float
+    description: 'Real displayed on http://www.microcontest.com/contests/15/nombre.php'
