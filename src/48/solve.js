@@ -40,7 +40,7 @@ function getMoves(board)
     if(y1 > y2) return 'D';
     if(y1 < y2) return 'U';
 
-    return move;
+    assert(false);
   });
 
   return moves.join('');
