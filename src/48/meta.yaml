@@ -1,0 +1,14 @@
+id: 48
+name: Sliding Puzzle
+category: AI
+url: 'http://www.microcontest.com/contest.php?id=48&lang=en'
+inputs:
+  - name: puzzle
+    type: String
+    cType: char*
+    description: The string representing the puzzle
+outputs:
+  - name: moves
+    type: String
+    cType: char*
+    description: The string representing the moves to perform in order to solve the puzzle
