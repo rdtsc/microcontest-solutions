@@ -1,0 +1,40 @@
+id: 30
+name: Tower of Hanoï
+category: Miscellaneous
+url: 'http://www.microcontest.com/contest.php?id=30&lang=en'
+inputs:
+  - name: nb_disques
+    type: Integer
+    cType: int
+    description: Number of disks distributed over the three towers
+  - name: tour_cible
+    type: Integer
+    cType: int
+    description: >-
+      Tower on which the disks must be moved. Values ​​1 for tower 1, 2 for
+      tower 2 and 3 for tower 3
+  - name: tour1
+    type: String
+    cType: char*
+    description: >-
+      Character string coding the disks initially placed on tower 1, as
+      explained in the text.
+  - name: tour2
+    type: String
+    cType: char*
+    description: >-
+      Character string coding the disks initially placed on tower 2, as
+      explained in the text.
+  - name: tour3
+    type: String
+    cType: char*
+    description: >-
+      Character string coding the disks initially placed on tower 3,
+      as explained in the text.
+outputs:
+  - name: solution
+    type: String
+    cType: char*
+    description: >-
+      Character string coding the movements to be made so that all the disks
+      are on the target_tower, following the rules explained in the text.
