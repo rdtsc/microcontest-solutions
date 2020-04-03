@@ -3,7 +3,13 @@
 This repository houses my personal solutions to
 [µContest's programming challenges][challenges].
 
-The site is mostly in French with some English translations here and there.
+The site is mostly written in French with some English translations here and
+there.
+
+Some problem statements are either completely in French or have a mix of English
+and French content. In these cases, Google Translate is used to make sense of
+things. The results are not perfect, but mostly understandable.
+
 Almost all API endpoints are implemented in French, so expect solutions to
 contain an awkward mix of variable names in English/French.
 
