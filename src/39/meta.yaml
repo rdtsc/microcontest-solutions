@@ -1,0 +1,21 @@
+id: 39
+name: Bar Code I
+category: Multimedia
+url: 'http://www.microcontest.com/contest.php?id=39&lang=en'
+inputs:
+  - name: img
+    type: String
+    cType: char*
+    description: >-
+      The PNG image representing the bar code. Be careful: this buffer may
+      contain null characters, use the provided length instead of the function
+      strlen.
+outputs:
+  - name: number1
+    type: Integer
+    cType: int
+    description: The first number.
+  - name: number2
+    type: Integer
+    cType: int
+    description: The second number.
