@@ -48,8 +48,7 @@ function getMoves(board)
 
 solve(48, ({rawChallengeResponse}) =>
 {
-  const puzzle =
-    unserializePuzzle(rawChallengeResponse);
+  const puzzle = unserializePuzzle(rawChallengeResponse);
 
   return {moves: getMoves(puzzle)};
 });
