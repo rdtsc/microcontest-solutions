@@ -1,0 +1,38 @@
+id: 17
+name: Maze
+category: AI
+url: 'http://www.microcontest.com/contest.php?id=17&lang=en'
+inputs:
+  - name: laby
+    type: String
+    cType: char*
+    description: 'Maze, formatted as explained in description'
+  - name: nb_colonnes
+    type: Integer
+    cType: int
+    description: Number of columns of the maze
+  - name: nb_lignes
+    type: Integer
+    cType: int
+    description: Number of lines of the maze
+  - name: colonne_depart
+    type: Integer
+    cType: int
+    description: Number (starting with 1) of the column of the starting square
+  - name: ligne_depart
+    type: Integer
+    cType: int
+    description: Number (starting with 1) of the row of the starting square
+  - name: colonne_arrivee
+    type: Integer
+    cType: int
+    description: Number (starting with 1) of the column of the arrival square
+  - name: ligne_arrivee
+    type: Integer
+    cType: int
+    description: Number (starting with 1) of the row of the arrival square
+outputs:
+  - name: chemin
+    type: String
+    cType: char*
+    description: 'Path, formatted as described in description'
