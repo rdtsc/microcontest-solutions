@@ -1,0 +1,14 @@
+id: 41
+name: Chess Game II
+category: AI
+url: 'http://www.microcontest.com/contest.php?id=41&lang=en'
+inputs:
+  - name: game
+    type: String
+    cType: char*
+    description: 'The game state, PGN format'
+outputs:
+  - name: last
+    type: String
+    cType: char*
+    description: The last move the white player must play to win
