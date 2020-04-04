@@ -189,8 +189,8 @@ Problem not available.
 All original code is released under the [MIT license][mit], unless otherwise
 specified.
 
-All referenced product names, trademarks, logos, and images are property of
-their respective owners.
+All referenced/bundled dependencies, product names, trademarks, logos, and
+images are property of their respective owners.
 
 
 [challenges]: http://www.microcontest.com/contests.php
