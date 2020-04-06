@@ -1,0 +1,18 @@
+id: 26
+name: Optical Character Recognition II
+category: AI
+url: 'http://www.microcontest.com/contest.php?id=26&lang=en'
+inputs:
+  - name: face
+    type: String
+    cType: char*
+    description: 'Image corresponding to the front view, png'
+  - name: gauche
+    type: String
+    cType: char*
+    description: 'Image corresponding to the left view, png'
+outputs:
+  - name: text
+    type: String
+    cType: char*
+    description: Text readable in the top view
