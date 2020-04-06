@@ -78,11 +78,9 @@ async function normalizeCaptcha(img)
 
     const img = await normalizeCaptcha(PNG.sync.read(hex));
 
-    let {data: {text}} = await ocr.recognize(img);
+    const {data: {text}} = await ocr.recognize(img);
 
-    text = text.trim();
-
-    return {text};
+    return {text: text.trim()};
   });
 
   await ocr.terminate();
