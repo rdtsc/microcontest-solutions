@@ -2,15 +2,12 @@
 
 'use strict';
 
-const cp    = require('child_process'),
-      fs    = require('fs-extra'),
-      temp  = require('temp'),
+const Jimp  = require('jimp'),
       {PNG} = require('pngjs'),
       maxBy = require('lodash.maxby');
 
-const {solve} = require('~/lib/mc');
-
-temp.track();
+const {solve}   = require('~/lib/mc'),
+      tesseract = require('~/lib/tesseract');
 
 const getPixel = (img, x, y) =>
   img.data[(img.width * y + x) * 4 + 0] << 16 |
@@ -51,7 +48,7 @@ function getCaptchaBackground(img)
   return +maxBy(Object.keys(histogram), rgb => histogram[rgb]);
 }
 
-function normalizeCaptcha(img)
+async function normalizeCaptcha(img)
 {
   const bg = getCaptchaBackground(img);
 
@@ -63,24 +60,30 @@ function normalizeCaptcha(img)
     setPixel(img, x, y, pixel === bg ? 0xffffff : 0x000000);
   }
 
-  return img;
+  img = new Jimp(img);
+
+  img.scale(2, Jimp.RESIZE_BEZIER);
+  img.blur(1);
+
+  return img.getBufferAsync(Jimp.MIME_PNG);
 }
 
-solve(20, ({hex}) =>
+(async () =>
 {
-  hex = Buffer.from(hex.replace(/\s/g, ''), 'hex');
+  const ocr = await tesseract();
 
-  const img     = normalizeCaptcha(PNG.sync.read(hex)),
-        imgPath = temp.openSync({suffix: '.png'}).path;
-
-  fs.writeFileSync(imgPath, PNG.sync.write(img));
-
-  const result =
+  await solve(20, async ({hex}) =>
   {
-    text: cp.execSync(`gocr -C 0-9a-zA-Z "${imgPath}"`)
-            .toString()
-            .trim()
-  };
+    hex = Buffer.from(hex.replace(/\s/g, ''), 'hex');
 
-  return result;
-});
+    const img = await normalizeCaptcha(PNG.sync.read(hex));
+
+    let {data: {text}} = await ocr.recognize(img);
+
+    text = text.trim();
+
+    return {text};
+  });
+
+  await ocr.terminate();
+})();

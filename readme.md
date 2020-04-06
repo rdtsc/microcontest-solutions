@@ -25,8 +25,6 @@ already solved the relevant problems yourself.
 - Node.js ~v12
 - Yarn ~v1
 - GCC ~v9
-- pngtopnm
-- gocr
 
 ### Initial Setup
 
