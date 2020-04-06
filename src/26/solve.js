@@ -2,26 +2,11 @@
 
 'use strict';
 
-const path      = require('path'),
-      maxBy     = require('lodash.maxby'),
-      Tesseract = require('tesseract.js');
+const maxBy = require('lodash.maxby');
 
-const {solve} = require('~/lib/mc'),
-      captcha = require('./captcha');
-
-async function tesseract()
-{
-  const cachePath =
-    path.join(path.dirname(require.resolve('~/package')), '/models/tesseract');
-
-  const ocr = Tesseract.createWorker({cachePath});
-
-  await ocr.load();
-  await ocr.loadLanguage()
-  await ocr.initialize();
-
-  return ocr;
-}
+const {solve}   = require('~/lib/mc'),
+      captcha   = require('./captcha'),
+      tesseract = require('~/lib/tesseract');
 
 (async () =>
 {
