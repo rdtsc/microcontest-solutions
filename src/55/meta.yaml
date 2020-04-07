@@ -1,0 +1,14 @@
+id: 55
+name: Random Walk
+category: Mathematics
+url: 'http://www.microcontest.com/contest.php?id=55&lang=en'
+inputs:
+  - name: links
+    type: String
+    cType: char*
+    description: Links matrix
+outputs:
+  - name: rank
+    type: String
+    cType: char*
+    description: Ranking of cities

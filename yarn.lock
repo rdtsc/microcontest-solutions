@@ -824,6 +824,11 @@ domutils@^1.5.1:
     dom-serializer "0"
     domelementtype "1"
 
+dotparser@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/dotparser/-/dotparser-0.4.0.tgz#e548dbd0a34e65c364a3d8ddd5113f516efbb90c"
+  integrity sha512-l4QBA70CRa3D0Dcm+QKPJeTrmOQopxHNWhd+xupkSJh+aFtuqPEDtsBhezdtcoQJd1LaKdtrqDbxt+63kRzoLw==
+
 each-cons@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/each-cons/-/each-cons-1.0.0.tgz#ebf42b6cc6e11993d55c3848cb9ab57d906cf4f1"
@@ -1238,6 +1243,45 @@ mustache@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/mustache/-/mustache-4.0.1.tgz#d99beb031701ad433338e7ea65e0489416c854a2"
   integrity sha512-yL5VE97+OXn4+Er3THSmTdCFCtx5hHWzrolvH+JObZnUYwuaG7XV+Ch4fR2cIrcYI0tFHxS7iyFYl14bW8y2sA==
+
+ngraph.events@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/ngraph.events/-/ngraph.events-0.0.3.tgz#38f55316f3d207ad631ff94f6622ca8f2c0e87d0"
+  integrity sha1-OPVTFvPSB61jH/lPZiLKjywOh9A=
+
+ngraph.events@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/ngraph.events/-/ngraph.events-1.2.1.tgz#6e40425ef9dec1e074bbef6da56c8d79b9188fd8"
+  integrity sha512-D4C+nXH/RFxioGXQdHu8ELDtC6EaCiNsZtih0IvyGN81OZSUby4jXoJ5+RNWasfsd0FnKxxpAROyUMzw64QNsw==
+
+ngraph.fromdot@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/ngraph.fromdot/-/ngraph.fromdot-5.0.0.tgz#5973a637f33dcc4f080c7513bd457f176df6273e"
+  integrity sha512-uaRLXf21GeUqrtVfwAVG6NOtPhrpzzbw8PJycYiT0LoebQ2OQ/3YEE7ubB04p+Yr1RYlX2BqTGQdUJmkcZ1dWA==
+  dependencies:
+    dotparser "^0.4.0"
+    ngraph.graph "18.0.0"
+
+ngraph.graph@18.0.0:
+  version "18.0.0"
+  resolved "https://registry.yarnpkg.com/ngraph.graph/-/ngraph.graph-18.0.0.tgz#f999131b1ea16bab110c0ba792bcf4925349c564"
+  integrity sha512-HH39PulrZrFIcO6Qw4Ts3aYqPauAV/6p2lbbtPiFZoUDAASLtfnfg4wtXohy0ZE9Ik51wUgWaZ+FfyKk/SRlzQ==
+  dependencies:
+    ngraph.events "0.0.3"
+
+ngraph.graph@^19.0.4:
+  version "19.0.4"
+  resolved "https://registry.yarnpkg.com/ngraph.graph/-/ngraph.graph-19.0.4.tgz#d849dadc75915139e6f803e1a168593c8ddd7e11"
+  integrity sha512-0ca9PbE1K504bgV5XDLhBaFSWDJYSb3a4R30THslKsneGTm45+5lUlB0wkWcmZ00QFC0LesrdLi0xqxrtGtFmA==
+  dependencies:
+    ngraph.events "^1.2.1"
+
+ngraph.pagerank@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ngraph.pagerank/-/ngraph.pagerank-2.0.0.tgz#cfe1b373aa668b6f6926b4e660618c579f940dd0"
+  integrity sha512-HWrksjxsDUf2VXuvOLGx1yj7Pjl1hMmv94m+wdCL+S6PL6Dma/uVutAgFjAGrZGTN4NtJ4ngNfroAq3e+h4k7g==
+  dependencies:
+    ngraph.fromdot "^5.0.0"
 
 node-fetch@^2.6.0:
   version "2.6.0"
