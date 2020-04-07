@@ -89,8 +89,8 @@ file and execute `mc setup` again.
 
 #### Task: `mc init`
 
-The `mc init` task is responsible for creating solution boilerplate files which
-currently include the following actions:
+The `mc init` task is responsible for creating solution boilerplate files and
+currently includes the following actions:
 
 - Solution directory creation in `./src` based on the problem's ID.
 - Creation of an initial Markdown readme with the problem's HTML description
