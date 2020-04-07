@@ -1,5 +1,5 @@
 id: 6
-name: WAV ?
+name: WAV?
 category: Multimedia
 url: 'http://www.microcontest.com/contest.php?id=6&lang=en'
 inputs:
@@ -11,7 +11,7 @@ inputs:
     type: String
     cType: char*
     description: >-
-      WAV sound. Be careful : this buffer may contain null characters, use the
+      WAV sound. Be careful: this buffer may contain null characters, use the
       provided length instead of the function strlen.
 outputs:
   - name: nb_canaux

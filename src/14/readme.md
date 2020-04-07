@@ -1,4 +1,4 @@
-# What's the Captain Age ?
+# What's the Captain Age?
 
 **Mathematics – Problem #14**
 
@@ -7,7 +7,7 @@
 
 ## Description
 
-Two variables to get in this contest :
+Two variables to get in this contest:
 
 - `naissance`
 - `date_courante`

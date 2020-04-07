@@ -32,7 +32,7 @@ donnees_compressees = "3A2G3B1O2P5T4Z"
 
 So we obtain the same information, represented by a smaller number of letters.
 Besides, we notice that there are some cases for which the compressed string is
-longer than the initial one (`ABCD -> 1A1B1C1D`) !! In fact, it is possible to
+longer than the initial one (`ABCD -> 1A1B1C1D`)!! In fact, it is possible to
 demonstrate that it's true for every compression algorithm.
 
 The challenge consists in 2 steps, one for the compression, and the second one
@@ -52,7 +52,7 @@ donnees_a_compresser   = "AAAAZZPPPPPPPP"
 donnees_a_decompresser = "3H7J1P3D"
 ```
 
-you must send back :
+you must send back:
 
 ```text
 resultat_compression   = "4A2Z8P"

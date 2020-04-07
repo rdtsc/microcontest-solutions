@@ -7,7 +7,7 @@
 
 ## Description
 
-This challenge is simple, you get two strings : `s1` and `s2`.
+This challenge is simple, you get two strings: `s1` and `s2`.
 
 You must return the concatenation of them in the variable `s3`.
 

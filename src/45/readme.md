@@ -10,7 +10,7 @@
 This first (long description but easy) challenge's point is to discover the
 bases of the Turing Machines.
 
-To quote Wikipedia :
+To quote Wikipedia:
 
 > A Turing machine is a hypothetical device that manipulates symbols on a strip
 > of tape according to a table of rules. Despite its simplicity, a Turing
@@ -25,7 +25,7 @@ tape, in order to understand how it works before the next challenge.
 Basically and to sum up (Wikipedia explains it very well), a Turing Machine is
 an enhanced state machine, with a tape on which it can write or read symbols.
 
-It is composed of :
+It is composed of:
 
 - A finite set of states. Among them, there are an initial state, and one or
   more STOP states.
@@ -42,7 +42,7 @@ every kind of TM, we can imagine a lot of different transition tables.
 
 In this challenge, we are going to manipulate a single Turing Machine, that has:
 
-- 6 internal states : `A`, `B`, `C`, `D`, `E`, `F`. The initial state is `A`,
+- 6 internal states: `A`, `B`, `C`, `D`, `E`, `F`. The initial state is `A`,
   and `F` is the only final state.
 - only two symbols, `0` and `1`.
 - a transition table we provide you:

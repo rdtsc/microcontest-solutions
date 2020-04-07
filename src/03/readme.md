@@ -1,4 +1,4 @@
-# Do You Know How to Count ?
+# Do You Know How to Count?
 
 **Miscellaneous – Problem #3**
 

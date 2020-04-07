@@ -10,8 +10,8 @@
 In order to attract females on µContest, we decided to open to the dietetic
 world !!! Ahah
 
-In this challange, you will have to compute the Body Mass Index, and the Body
-Fat Percentage of a person for which we give you several characteristics :
+In this challenge, you will have to compute the Body Mass Index, and the Body
+Fat Percentage of a person for which we give you several characteristics:
 
 - The mass, in kg, in the variable `mass`
 - The height, in cm, in the variable `height`
