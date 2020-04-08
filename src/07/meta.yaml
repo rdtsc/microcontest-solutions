@@ -1,0 +1,25 @@
+id: 7
+name: Musical Note
+category: Multimedia
+url: 'http://www.microcontest.com/contest.php?id=7&lang=en'
+inputs:
+  - name: wav
+    type: String
+    cType: char*
+    description: >-
+      The WAV sound. If you save this content in a wav file, you will be able to
+      listen to it. Be careful: this buffer may contain null characters, use
+      the provided length instead of the function strlen.
+outputs:
+  - name: note
+    type: Integer
+    cType: int
+    description: The code of the note
+  - name: octave
+    type: Integer
+    cType: int
+    description: The octave of the note
+  - name: duree
+    type: Real
+    cType: float
+    description: 'The sound duration, with a maximum error of 0.01 sec'
