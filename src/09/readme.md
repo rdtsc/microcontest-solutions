@@ -19,7 +19,7 @@ are going to download, with `n` the total number of pieces
 (`n = nb_lignes * nb_colonnes`), incrementing from left to right and from top
 to bottom as in the following example:
 
-<img src="./extra/00.jpeg" alt="Image 0">
+<img src="./extra/00.jpg" alt="Image 0">
 
 Here:
 
