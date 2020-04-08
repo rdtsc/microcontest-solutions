@@ -44,7 +44,7 @@ etc., and return it within the `resultat` variable.
 Here, the string would be:
 
 ```text
-"7,19,9,11,4,5,13,17,18,12,2,15,6,3,14,1,8,16,10,20"
+7,19,9,11,4,5,13,17,18,12,2,15,6,3,14,1,8,16,10,20
 ```
 
 
