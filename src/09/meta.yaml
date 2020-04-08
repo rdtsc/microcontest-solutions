@@ -1,0 +1,27 @@
+id: 9
+name: Puzzle
+category: Multimedia
+url: 'http://www.microcontest.com/contest.php?id=9&lang=en'
+inputs:
+  - name: img
+    type: String
+    cType: char*
+    description: >-
+      PNG image of the puzzle, with the same size of the original but with the
+      pieces mixed. Be careful: this buffer may contain null characters, use
+      the provided length instead of the function strlen.
+  - name: nb_lignes
+    type: Integer
+    cType: int
+    description: Number of rows of the cutting
+  - name: nb_colonnes
+    type: Integer
+    cType: int
+    description: Number of columns of the cutting
+outputs:
+  - name: resultat
+    type: String
+    cType: char*
+    description: >-
+      String containing the number of the pieces with the correct order as
+      described previously
