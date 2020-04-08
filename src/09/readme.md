@@ -33,13 +33,13 @@ place to reconstruct the image. In our example, you should get this:
 
 <img src="./extra/01.jpg" alt="Image 1">
 
-(The numbers are here for illustrative purposes, you must of course manage them
-differently than by writing them on the images...)
+The numbers are here for illustrative purposes, you must of course manage them
+differently than by writing them on the images.
 
 You just have to build a character string (`char*`), in which you write the
 numbers separated by commas in this order: the first number is the number of the
 pieces at the top left, the second the number from its neighbor on the right,
-etc..., and return it within the `resultat` variable.
+etc., and return it within the `resultat` variable.
 
 Here, the string would be:
 
