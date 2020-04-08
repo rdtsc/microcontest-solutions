@@ -25,7 +25,7 @@ Here:
 
 ```text
 nb_colonnes = 4
-nb_lignes = 5
+nb_lignes   = 5
 ```
 
 Your objective is to replace the previously numbered pieces in their original
