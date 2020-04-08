@@ -1,0 +1,30 @@
+id: 24
+name: Calculator II
+category: Mathematics
+url: 'http://www.microcontest.com/contest.php?id=24&lang=en'
+inputs:
+  - name: expression1
+    type: String
+    cType: char*
+    description: Expression 1 to evaluate
+  - name: expression2
+    type: String
+    cType: char*
+    description: Expression 2 to evaluate
+  - name: expression3
+    type: String
+    cType: char*
+    description: Expression 3 to evaluate
+outputs:
+  - name: evaluation1
+    type: Real
+    cType: float
+    description: Evaluation of expression expression1
+  - name: evaluation2
+    type: Real
+    cType: float
+    description: Evaluation of expression expression2
+  - name: evaluation3
+    type: Real
+    cType: float
+    description: Evaluation of expression expression3
