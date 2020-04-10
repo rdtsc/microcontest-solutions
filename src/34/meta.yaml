@@ -1,0 +1,33 @@
+id: 34
+name: Data Compression II
+category: Miscellaneous
+url: 'http://www.microcontest.com/contest.php?id=34&lang=en'
+inputs:
+  - name: txt_a_compresser
+    type: String
+    cType: char*
+    description: The text to be compressed
+  - name: txt_a_decompresser
+    type: String
+    cType: char*
+    description: >-
+      The bytes sequence to be decompressed. Be careful: this buffer may
+      contain null characters, use the provided length instead of the function
+      strlen
+  - name: Nb_Bits_Ajoutes
+    type: Integer
+    cType: int
+    description: >-
+      The number of null bits added to the result of the compression in order to
+      obtain a number of bits multiple of 8, giving txt_a_decompresser
+outputs:
+  - name: txt_compresse
+    type: String
+    cType: char*
+    description: >-
+      Result of the compression of txt_a_compresser, with the conventions given
+      in the description
+  - name: txt_decompresse
+    type: String
+    cType: char*
+    description: Result of the decompression of txt_a_decompresser
