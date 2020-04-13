@@ -2,7 +2,7 @@
 
 'use strict';
 
-require('dotenv').config();
+require('~/lib/dotenv');
 
 const ora   = require('ora'),
       Imap  = require('mail-listener2'),
