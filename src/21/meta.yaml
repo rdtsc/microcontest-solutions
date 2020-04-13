@@ -1,0 +1,16 @@
+id: 21
+name: Email
+category: Network
+url: 'http://www.microcontest.com/contest.php?id=21&lang=en'
+inputs:
+  - name: number
+    type: Integer
+    cType: int
+    description: N/A
+outputs:
+  - name: sum
+    type: Integer
+    cType: int
+    description: >-
+      The sum of number and the number sent by mail to your address, where the
+      subject is "Epreuve 21"

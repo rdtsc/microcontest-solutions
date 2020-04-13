@@ -1,0 +1,20 @@
+{
+  "providers":
+  {
+    "gmail":
+    {
+      "tls": true,
+      "port": 993,
+      "host": "imap.gmail.com",
+      "mailbox": "[Gmail]/All Mail",
+      "tlsOptions": {"rejectUnauthorized": false}
+    }
+  },
+
+  "challenge":
+  {
+    "ttl": 20000,
+    "expectedSubjectPattern": "^epreuve.*?21$",
+    "expectedFromAddress": "no-reply@microcontest.com"
+  }
+}
