@@ -1,0 +1,24 @@
+id: 46
+name: Card Trick
+category: Miscellaneous
+url: 'http://www.microcontest.com/contest.php?id=46&lang=en'
+inputs:
+  - name: nb_of_cards
+    type: Integer
+    cType: int
+    description: Number of cards used for the trick
+  - name: final_sequence
+    type: String
+    cType: char*
+    description: 'The final cards sequence, placed on the table from the left to the right'
+  - name: cards_passed
+    type: String
+    cType: char*
+    description: 'Number of cards put under the pile, for each step'
+outputs:
+  - name: initial_sequence
+    type: String
+    cType: char*
+    description: >-
+      The initial cards sequence, faces down, from the top to the bottom of
+      the pile
