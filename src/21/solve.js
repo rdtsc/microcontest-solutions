@@ -56,8 +56,8 @@ client.on('server:connected', () =>
     }, config.challenge.ttl);
 
     const [rhs] = (await email).split(/\D/g)
-                                .filter(s => s.length)
-                                .map(Number);
+                               .filter(s => s.length)
+                               .map(Number);
 
     clearTimeout(timeout);
 
