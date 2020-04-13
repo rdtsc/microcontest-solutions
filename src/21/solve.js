@@ -21,7 +21,7 @@ const client = new Imap({...auth, ...provider});
 
 client.on('error', (error) =>
 {
-  spinner.fail(error.toString());
+  spinner.fail(chalk.red(error.toString()));
   client.stop();
 });
 
