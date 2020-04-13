@@ -10,11 +10,10 @@ solve(46, ({rawChallengeResponse}) =>
   const {sequence, numbers} = unserialize(rawChallengeResponse);
 
   const firstCard = sequence[0],
-        lastCard  = sequence[sequence.length - 1];
+        lastCard  = sequence[sequence.length - 1],
+        result    = [firstCard, ...Array(sequence.length - 1)];
 
   let i = 0, j = 0;
-
-  const result = [firstCard, ...Array(sequence.length - 1)];
 
   for(let n of numbers)
   {
