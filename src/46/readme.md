@@ -7,7 +7,7 @@
 
 ## Description
 
-<small>Thanks to boris39 for this challenge!</small>
+<sup>Thanks to boris39 for this challenge!</sup>
 
 In this challenge, you will wear the magician's cloak. You will have to find the
 initial sequence of cards, which leads to a final sequence proposed by your
