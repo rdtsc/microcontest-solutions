@@ -1,0 +1,22 @@
+id: 29
+name: Chaotic Cryptography I
+category: Cryptography
+url: 'http://www.microcontest.com/contest.php?id=29&lang=en'
+inputs:
+  - name: message_chiffre
+    type: String
+    cType: char*
+    description: Cypher to decrypt
+  - name: m0
+    type: Real
+    cType: float
+    description: First term of the plain text
+  - name: m1
+    type: Real
+    cType: float
+    description: Second term of the plain text
+outputs:
+  - name: message_clair
+    type: String
+    cType: char*
+    description: Decrypted message
