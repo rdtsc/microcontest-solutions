@@ -1,0 +1,18 @@
+id: 32
+name: Chaotic Cryptography II
+category: Cryptography
+url: 'http://www.microcontest.com/contest.php?id=32&lang=en'
+inputs:
+  - name: message_chiffre
+    type: String
+    cType: char*
+    description: Encrypted message
+  - name: phpsessid
+    type: String
+    cType: char*
+    description: Session id to pass to crypt.php
+outputs:
+  - name: message_clair
+    type: String
+    cType: char*
+    description: Decrypted message
