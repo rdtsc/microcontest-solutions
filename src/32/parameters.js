@@ -1,8 +1,8 @@
 'use strict';
 
 const assert  = require('assert'),
-      {solve} = require('linear-solve'),
-      encrypt = require('./encrypt');
+      encrypt = require('./encrypt'),
+      {solve} = require('linear-solve');
 
 function deriveParameters(sequence)
 {
