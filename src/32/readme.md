@@ -22,7 +22,7 @@ The clear message will consist of only three characters: `0`, `1` and `2`
 
 The idea is to create as many chaotic suites; in our case we will therefore have
 three sequences each characterized by parameters ***a***, ***b*** and different
-initial terms ***x<sub>0</sub>*** and ***y<sub>0</subsub>***.
+initial terms ***x<sub>0</sub>*** and ***y<sub>0</sub>***.
 
 The encryption then takes place as follows: each character is coded by the value
 of the term of the same rank in the associated chaotic sequence. Each chaotic
@@ -30,11 +30,16 @@ sequence being associated with a character.
 
 Let's take an example:
 
-Chaotic Suite ***(x<sub>n</sub>)<sub>n</sub> 0***: `1 ; 2 ; 3 ; 4`<br>
-Chaotic Suite ***(x<sub>n</sub>)<sub>n</sub> 1***: `5 ; 6 ; 7 ; 8`<br>
-Chaotic Suite ***(x<sub>n</sub>)<sub>n</sub> 2***: `9 ; 10 ; 11 ; 12`<br>
-Cleartext Message: `1220`<br>
-Encrypted Message: `5 ; 10 ; 11 ; 4`
+| Chaotic Suite                                     | Values             |
+| ------------------------------------------------- | ------------------ |
+| Chaotic Suite ***(x<sub>n</sub>)<sub>n</sub> 0*** | `1 ; 2 ; 3 ; 4`    |
+| Chaotic Suite ***(x<sub>n</sub>)<sub>n</sub> 1*** | `5 ; 6 ; 7 ; 8`    |
+| Chaotic Suite ***(x<sub>n</sub>)<sub>n</sub> 2*** | `9 ; 10 ; 11 ; 12` |
+
+| Message Type | Message Payload   |
+| ------------ | ----------------- |
+| Cleartext    | `1220`            |
+| Encrypted    | `5 ; 10 ; 11 ; 4` |
 
 You must therefore decrypt the message provided in the `message_chiffre`
 variable in the following format:
