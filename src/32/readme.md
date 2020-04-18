@@ -37,7 +37,7 @@ Let's take an example:
 | ***(x<sub>n</sub>)<sub>n</sub> 2*** | `9 ; 10 ; 11 ; 12` |
 
 | Message Type | Message Payload   |
-| ------------ | ----------------- |
+| :----------: | ----------------- |
 | Cleartext    | `1220`            |
 | Encrypted    | `5 ; 10 ; 11 ; 4` |
 
