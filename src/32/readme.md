@@ -30,11 +30,11 @@ sequence being associated with a character.
 
 Let's take an example:
 
-| Chaotic Suite                                     | Values             |
-| ------------------------------------------------- | ------------------ |
-| Chaotic Suite ***(x<sub>n</sub>)<sub>n</sub> 0*** | `1 ; 2 ; 3 ; 4`    |
-| Chaotic Suite ***(x<sub>n</sub>)<sub>n</sub> 1*** | `5 ; 6 ; 7 ; 8`    |
-| Chaotic Suite ***(x<sub>n</sub>)<sub>n</sub> 2*** | `9 ; 10 ; 11 ; 12` |
+| Chaotic Suite                       | Values             |
+| ----------------------------------- | ------------------ |
+| ***(x<sub>n</sub>)<sub>n</sub> 0*** | `1 ; 2 ; 3 ; 4`    |
+| ***(x<sub>n</sub>)<sub>n</sub> 1*** | `5 ; 6 ; 7 ; 8`    |
+| ***(x<sub>n</sub>)<sub>n</sub> 2*** | `9 ; 10 ; 11 ; 12` |
 
 | Message Type | Message Payload   |
 | ------------ | ----------------- |
