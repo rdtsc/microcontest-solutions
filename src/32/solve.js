@@ -2,8 +2,8 @@
 
 'use strict';
 
-const decrypt       = require('./decrypt'),
-      {solve}       = require('~/lib/mc'),
+const {solve}       = require('~/lib/mc'),
+      decrypt       = require('./decrypt'),
       unserialize   = require('./unserialize'),
       getParameters = require('./parameters');
 
