@@ -1,0 +1,18 @@
+id: 35
+name: Chaotic Cryptography III
+category: Cryptography
+url: 'http://www.microcontest.com/contest.php?id=35&lang=en'
+inputs:
+  - name: message_chiffre
+    type: String
+    cType: char*
+    description: Cipher
+  - name: phpsessid
+    type: String
+    cType: char*
+    description: Session id to send to crypt.php
+outputs:
+  - name: message_clair
+    type: String
+    cType: char*
+    description: Decoded message
