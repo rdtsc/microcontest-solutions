@@ -7,7 +7,7 @@ const chunk   = require('lodash.chunk'),
 
 const {request} = require('~/lib/mc');
 
-async function getNextChar(message, suffixes, sessionToken)
+async function getNextPossibilities(message, suffixes, sessionToken)
 {
   const payload = [];
 
@@ -71,12 +71,12 @@ module.exports = async (sequence, sessionToken) =>
 
     for(const suffix of suffixes)
     {
-      requests.push(getNextChar(decrypted, suffix, sessionToken));
+      requests.push(getNextPossibilities(decrypted, suffix, sessionToken));
     }
 
-    const results = flatten(await Promise.all(requests));
+    const possibilities = flatten(await Promise.all(requests));
 
-    for(let {suffix, message} of results)
+    for(let {suffix, message} of possibilities)
     {
       if(message.length !== sequenceChunk.length)
       {
