@@ -1,0 +1,156 @@
+id: 49
+name: Formal Systems and Decision Procedures
+category: AI
+url: 'http://www.microcontest.com/contest.php?id=49&lang=en'
+inputs:
+  - name: string1
+    type: String
+    cType: char*
+    description: >-
+      The first string for which you have to determine whether it is a theorem
+      of TQ or not
+  - name: string2
+    type: String
+    cType: char*
+    description: >-
+      The 2nd string for which you have to determine whether it is a theorem of
+      TQ or not
+  - name: string3
+    type: String
+    cType: char*
+    description: >-
+      The 3rd string for which you have to determine whether it is a theorem of
+      TQ or not
+  - name: string4
+    type: String
+    cType: char*
+    description: >-
+      The 4th string for which you have to determine whether it is a theorem of
+      TQ or not
+  - name: string5
+    type: String
+    cType: char*
+    description: >-
+      The 5th string for which you have to determine whether it is a theorem of
+      TQ or not
+  - name: string6
+    type: String
+    cType: char*
+    description: >-
+      The 6th string for which you have to determine whether it is a theorem of
+      TQ or not
+  - name: string7
+    type: String
+    cType: char*
+    description: >-
+      The 7th string for which you have to determine whether it is a theorem of
+      TQ or not
+  - name: string8
+    type: String
+    cType: char*
+    description: >-
+      The 8th string for which you have to determine whether it is a theorem of
+      TQ or not
+  - name: string9
+    type: String
+    cType: char*
+    description: >-
+      The 9th string for which you have to determine whether it is a theorem of
+      TQ or not
+  - name: string10
+    type: String
+    cType: char*
+    description: >-
+      The 10th string for which you have to determine whether it is a theorem of
+      TQ or not
+  - name: string11
+    type: String
+    cType: char*
+    description: >-
+      The 11th string for which you have to determine whether it is a theorem of
+      TQ or not
+  - name: string12
+    type: String
+    cType: char*
+    description: >-
+      The 12th string for which you have to determine whether it is a theorem of
+      TQ or not
+  - name: string13
+    type: String
+    cType: char*
+    description: >-
+      The 13th string for which you have to determine whether it is a theorem of
+      TQ or not
+  - name: string14
+    type: String
+    cType: char*
+    description: >-
+      The 14th string for which you have to determine whether it is a theorem of
+      TQ or not
+  - name: string15
+    type: String
+    cType: char*
+    description: >-
+      The 15th string for which you have to determine whether it is a theorem of
+      TQ or not
+outputs:
+  - name: theorem1
+    type: Integer
+    cType: int
+    description: 'Is 1 if string1 is a theorem of TQ, 0 otherwise'
+  - name: theorem2
+    type: Integer
+    cType: int
+    description: 'Is 1 if string2 is a theorem of TQ, 0 otherwise'
+  - name: theorem3
+    type: Integer
+    cType: int
+    description: 'Is 1 if string3 is a theorem of TQ, 0 otherwise'
+  - name: theorem4
+    type: Integer
+    cType: int
+    description: 'Is 1 if string4 is a theorem of TQ, 0 otherwise'
+  - name: theorem5
+    type: Integer
+    cType: int
+    description: 'Is 1 if string5 is a theorem of TQ, 0 otherwise'
+  - name: theorem6
+    type: Integer
+    cType: int
+    description: 'Is 1 if string6 is a theorem of TQ, 0 otherwise'
+  - name: theorem7
+    type: Integer
+    cType: int
+    description: 'Is 1 if string7 is a theorem of TQ, 0 otherwise'
+  - name: theorem8
+    type: Integer
+    cType: int
+    description: 'Is 1 if string8 is a theorem of TQ, 0 otherwise'
+  - name: theorem9
+    type: Integer
+    cType: int
+    description: 'Is 1 if string9 is a theorem of TQ, 0 otherwise'
+  - name: theorem10
+    type: Integer
+    cType: int
+    description: 'Is 1 if string10 is a theorem of TQ, 0 otherwise'
+  - name: theorem11
+    type: Integer
+    cType: int
+    description: 'Is 1 if string11 is a theorem of TQ, 0 otherwise'
+  - name: theorem12
+    type: Integer
+    cType: int
+    description: 'Is 1 if string12 is a theorem of TQ, 0 otherwise'
+  - name: theorem13
+    type: Integer
+    cType: int
+    description: 'Is 1 if string13 is a theorem of TQ, 0 otherwise'
+  - name: theorem14
+    type: Integer
+    cType: int
+    description: 'Is 1 if string14 is a theorem of TQ, 0 otherwise'
+  - name: theorem15
+    type: Integer
+    cType: int
+    description: 'Is 1 if string15 is a theorem of TQ, 0 otherwise'
