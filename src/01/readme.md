@@ -25,6 +25,6 @@ To help you, the solution of this contest is described in detail on the page
 
 ### Outputs
 
-| Variable Name | Type    | C Type | Description    |
-| ------------- | ------- | ------ | -------------- |
-| **s**         | Integer | int    | Sum of a and b |
+| Variable Name | Type    | C Type | Description        |
+| ------------- | ------- | ------ | ------------------ |
+| **s**         | Integer | int    | Sum of `a` and `b` |
