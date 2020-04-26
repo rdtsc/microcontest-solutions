@@ -1,0 +1,36 @@
+id: 8
+name: Ballistic
+category: Physics
+url: 'http://www.microcontest.com/contest.php?id=8&lang=en'
+inputs:
+  - name: h
+    type: Integer
+    cType: int
+    description: 'Shot height relative to the ground, in m'
+  - name: H
+    type: Integer
+    cType: int
+    description: 'Height of the center of the target relative to the ground, in m'
+  - name: D
+    type: Integer
+    cType: int
+    description: 'Distance from the wall to the shooting range, in m'
+  - name: v0
+    type: Integer
+    cType: int
+    description: 'The projectile velocity, in m/s'
+  - name: theta
+    type: Real
+    cType: float
+    description: 'The shooting angle, in radians'
+outputs:
+  - name: e
+    type: Real
+    cType: float
+    description: >-
+      Algebraic distance to the center of the target (too high: e > 0, too low:
+      e < 0), with 0.1 m of tolerance
+  - name: duree
+    type: Real
+    cType: float
+    description: 'The flight time in sec, with 0.1 sec of tolerance.'
