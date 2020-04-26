@@ -33,4 +33,4 @@ outputs:
   - name: duree
     type: Real
     cType: float
-    description: 'The flight time in sec, with 0.1 sec of tolerance.'
+    description: 'The flight time in sec, with 0.1 sec of tolerance'

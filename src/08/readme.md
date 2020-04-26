@@ -38,4 +38,4 @@ The missile is considered as punctual and we ignore the friction.
 | Variable Name | Type | C Type | Description                                                                                                   |
 | ------------- | ---- | ------ | ------------------------------------------------------------------------------------------------------------- |
 | **e**         | Real | float  | Algebraic distance to the center of the target (too high: `e > 0`, too low: `e < 0`), with 0.1 m of tolerance |
-| **duree**     | Real | float  | The flight time in sec, with 0.1 sec of tolerance.                                                            |
+| **duree**     | Real | float  | The flight time in sec, with 0.1 sec of tolerance                                                             |
