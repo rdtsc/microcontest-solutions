@@ -17,7 +17,7 @@ bit.
 
 Many possibilities exist, one of the best known and simplest is to associate a
 state `0` with bit `0`, and a constant with bit `1`. One thus obtains slots
-(coding NRZ-L unipolar: p).
+(coding NRZ-L unipolar).
 
 But it wouldn't be funny if it was that simple, that's why we're going to use
 the following coding:
