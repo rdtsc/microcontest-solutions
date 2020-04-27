@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@wpdas/wave-header": "^1.0.1",
+    "audio-oscillator": "^3.1.1",
     "axios": "^0.19.2",
     "bn.js": "^5.1.1",
     "chalk": "^3.0.0",
@@ -45,6 +46,7 @@
     "ngraph.graph": "^19.0.4",
     "ngraph.pagerank": "^2.0.0",
     "ora": "^4.0.3",
+    "oregondsp": "^1.2.2",
     "parse-http-header": "^1.0.1",
     "patch-module": "^0.1.0",
     "pixelmatch": "^5.1.0",

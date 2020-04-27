@@ -648,6 +648,13 @@ at-least-node@^1.0.0:
   resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
+audio-oscillator@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/audio-oscillator/-/audio-oscillator-3.1.1.tgz#22f7849d7df4bac03453c7cc71d3873f9c121731"
+  integrity sha512-mDdDzXyGf2FCcVjVpk4BxifpQcMK7VpDNt7nwtuP9fBocbd6dL8ZXW0/QcHSHkZPR+k158fufacdwA9XeyHOsQ==
+  dependencies:
+    periodic-function "^1.1.4"
+
 axios@^0.19.2:
   version "0.19.2"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
@@ -1187,6 +1194,11 @@ jsonschema@^1.2.5:
   resolved "https://registry.yarnpkg.com/jsonschema/-/jsonschema-1.2.5.tgz#bab69d97fa28946aec0a56a9cc266d23fe80ae61"
   integrity sha512-kVTF+08x25PQ0CjuVc0gRM9EUPb0Fe9Ln/utFOgcdxEIOHuU7ooBk/UPTd7t1M91pP35m0MU1T8M5P7vP1bRRw==
 
+kotlin@^1.3.40:
+  version "1.3.72"
+  resolved "https://registry.yarnpkg.com/kotlin/-/kotlin-1.3.72.tgz#d30e94d1d9d6b72dcf80e6bf08098c9929922424"
+  integrity sha512-hvGztbc+K1bXDBdyonHPAbQ+TQnFf/zpI/+x3TuqOl199/O1SPOxbbe0ct6Cmu+k48EURpuXY4iz/+sM0VOHIg==
+
 languagedetect@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/languagedetect/-/languagedetect-2.0.0.tgz#4b8fa2b7593b2a3a02fb1100891041c53238936c"
@@ -1543,6 +1555,13 @@ ora@^4.0.3:
     strip-ansi "^6.0.0"
     wcwidth "^1.0.1"
 
+oregondsp@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/oregondsp/-/oregondsp-1.2.2.tgz#1e810176d559dbad378570e2573b059ddeccee44"
+  integrity sha512-yq4QcnXnHziIhuqUOAYkRbJzvn0jftH7CaWuMD5b9h991eioerhnkSe9+qchNWfkYNvrKMdzgPX5wIF+G1Yvvw==
+  dependencies:
+    kotlin "^1.3.40"
+
 os-homedir@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/os-homedir/-/os-homedir-1.0.2.tgz#ffbc4988336e0e833de0c168c7ef152121aa7fb3"
@@ -1602,6 +1621,11 @@ path-parse@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
   integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+
+periodic-function@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/periodic-function/-/periodic-function-1.1.4.tgz#53bab04ecd3d2ac767aca8798d2e4bbd2b8b9433"
+  integrity sha1-U7qwTs09KsdnrKh5jS5LvSuLlDM=
 
 phin@^2.9.1:
   version "2.9.3"

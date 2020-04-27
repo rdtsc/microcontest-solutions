@@ -1,0 +1,21 @@
+id: 33
+name: Transmission of a Digital Signal
+category: Multimedia
+url: 'http://www.microcontest.com/contest.php?id=33&lang=en'
+inputs:
+  - name: signal_recu
+    type: String
+    cType: char*
+    description: >-
+      The signal received in wav format. You must demodulate it and decode the
+      binary sequence it represents. Warning: This buffer can contain '\0', use
+      the length provided by the library rather than the strlen function.
+  - name: freq_porteuse
+    type: Integer
+    cType: int
+    description: 'Carrier frequency, in Hz.'
+outputs:
+  - name: resultat
+    type: String
+    cType: char*
+    description: 'The decoded binary sequence, composed of characters ''0'' and ''1''.'
