@@ -12,7 +12,8 @@ an analog signal.
 
 First take the binary sequence that we want to transmit: `011000101`.
 
-The first step consists for example in associating an analog signal with each bit.
+The first step consists for example in associating an analog signal with each
+bit.
 
 Many possibilities exist, one of the best known and simplest is to associate a
 state `0` with bit `0`, and a constant with bit `1`. One thus obtains slots
