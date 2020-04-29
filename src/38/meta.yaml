@@ -1,0 +1,21 @@
+id: 38
+name: Blood Image Analysis
+category: Multimedia
+url: 'http://www.microcontest.com/contest.php?id=38&lang=en'
+inputs:
+  - name: img
+    type: String
+    cType: char*
+    description: >-
+      The PNG image representing the blood cells. Be careful: this buffer may
+      contain null characters, use the provided length instead of the function
+      strlen.
+outputs:
+  - name: nb_redbloodcells
+    type: Integer
+    cType: int
+    description: Number of red blood cells appearing in the image.
+  - name: nb_whitebloodcells
+    type: Integer
+    cType: int
+    description: Number of white blood cells appearing in the image.
