@@ -6,7 +6,7 @@ const sumBy = require('lodash.sumby');
 
 const {solve}     = require('~/lib/mc'),
       segment     = require('./segment'),
-      unserialize = require('./unserialize')
+      unserialize = require('./unserialize');
 
 solve(38, 'raw', ({response}) =>
 {
