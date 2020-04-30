@@ -1,0 +1,36 @@
+id: 36
+name: Person Identification - Iris
+category: AI
+url: 'http://www.microcontest.com/contest.php?id=36&lang=en'
+inputs:
+  - name: img1_b64
+    type: String
+    cType: char*
+    description: >-
+      The picture of the iris of the first individual to identify, in JPG,
+      base64 encoded
+  - name: img2_b64
+    type: String
+    cType: char*
+    description: >-
+      The picture of the iris of the second individual to identify, in JPG,
+      base64 encoded
+  - name: img3_b64
+    type: String
+    cType: char*
+    description: >-
+      The picture of the iris of the third individual to identify, in JPG,
+      base64 encoded
+outputs:
+  - name: id1
+    type: Integer
+    cType: int
+    description: The number of the first individual
+  - name: id2
+    type: Integer
+    cType: int
+    description: The number of the second individual
+  - name: id3
+    type: Integer
+    cType: int
+    description: The number of the third individual
