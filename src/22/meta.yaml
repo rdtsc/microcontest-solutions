@@ -1,0 +1,22 @@
+id: 22
+name: Chess Game I
+category: AI
+url: 'http://www.microcontest.com/contest.php?id=22&lang=en'
+inputs:
+  - name: pieces
+    type: String
+    cType: char*
+    description: List of available chess pieces
+outputs:
+  - name: '1'
+    type: Integer
+    cType: int
+    description: Index of the square where the first piece stands
+  - name: '2'
+    type: Integer
+    cType: int
+    description: Index of the square where the second piece stands
+  - name: 'N...'
+    type: Integer
+    cType: int
+    description: Index of the square where the Nth piece stands
