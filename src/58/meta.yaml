@@ -1,0 +1,18 @@
+id: 58
+name: Radar
+category: Physics
+url: 'http://www.microcontest.com/contest.php?id=58&lang=en'
+inputs:
+  - name: tx
+    type: String
+    cType: char*
+    description: Emitted signal
+  - name: rx
+    type: String
+    cType: char*
+    description: Received signal
+outputs:
+  - name: distance
+    type: Real
+    cType: float
+    description: Distance to the object
