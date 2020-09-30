@@ -15,7 +15,6 @@ Thumbs.db
 *.so
 *.log
 *.env
-*.traineddata
 
 # Vendor files.
 node_modules
