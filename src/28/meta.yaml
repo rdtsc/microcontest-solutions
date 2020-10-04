@@ -1,0 +1,38 @@
+id: 28
+name: Forms Analysis
+category: Multimedia
+url: 'http://www.microcontest.com/contest.php?id=28&lang=en'
+inputs:
+  - name: img1
+    type: String
+    cType: char*
+    description: Image 1, in PNG format
+  - name: img2
+    type: String
+    cType: char*
+    description: Image 2, in PNG format
+outputs:
+  - name: nb_rectangles_1
+    type: Integer
+    cType: int
+    description: The number of rectangles in Image 1
+  - name: nb_triangles_1
+    type: Integer
+    cType: int
+    description: The number of triangles in Image 1
+  - name: nb_cercles_1
+    type: Integer
+    cType: int
+    description: The number of circles in Image 1
+  - name: nb_rectangles_2
+    type: Integer
+    cType: int
+    description: The number of rectangles in Image 2
+  - name: nb_triangles_2
+    type: Integer
+    cType: int
+    description: The number of triangles in Image 2
+  - name: nb_cercles_2
+    type: Integer
+    cType: int
+    description: The number of circles in Image 2

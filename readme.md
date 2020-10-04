@@ -22,6 +22,7 @@ already solved the relevant problems yourself.
 ### Local Environment
 
 - Linux
+- Docker ~v19
 - Node.js ~v12
 - Yarn ~v1
 - GCC ~v9

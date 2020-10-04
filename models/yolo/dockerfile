@@ -1,0 +1,15 @@
+FROM python:3.8-buster
+
+WORKDIR /app
+
+ARG DEPENDENCIES=libgl1
+ARG YOLO_TAG=v3.0
+ARG YOLO_URL=https://github.com/ultralytics/yolov5
+
+RUN set -x && \
+    apt-get update && \
+    apt-get install -y --no-install-recommends $DEPENDENCIES && \
+    git clone --depth 1 --branch $YOLO_TAG $YOLO_URL framework && \
+    pip install -r framework/requirements.txt
+
+ENTRYPOINT ["core/detect.sh"]
