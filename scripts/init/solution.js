@@ -19,7 +19,7 @@ module.exports = (solutionPath, problem) =>
       results: get('outputs')
     };
 
-    fs.writeFileSync(solutionPath, render.solution(view));
+    fs.writeFileSync(solutionPath, render.solution(view), {mode: 0o775});
 
     echo(solutionPath);
 
