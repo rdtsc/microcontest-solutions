@@ -18,7 +18,7 @@ if(cluster.isMaster)
 
   const config =
   {
-    archive: false,
+    archive: true,
 
     remoteImageDir: '/content/dataset/images',
 
