@@ -1,0 +1,22 @@
+{
+  "name": "deskew",
+  "version": "2.0.2",
+  "description": "Automatic text skew detection and correction",
+  "main": "deskew.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ITaylor573/deskew.git"
+  },
+  "author": "Inigo Taylor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ITaylor573/deskew/issues"
+  },
+  "homepage": "https://github.com/ITaylor573/deskew#readme",
+  "dependencies": {
+    "jimp": "^0.8.4"
+  }
+}

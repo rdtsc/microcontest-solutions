@@ -1313,10 +1313,8 @@ delegates@^1.0.0:
   resolved "https://registry.yarnpkg.com/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
   integrity sha1-hMbhWbgZBP3KWaDvRM2HDTElD5o=
 
-deskew@^2.0.2:
+"deskew@file:lib/vendor/deskew":
   version "2.0.2"
-  resolved "https://registry.yarnpkg.com/deskew/-/deskew-2.0.2.tgz#985378227e3d913ef4f7e91be12557d999ea1796"
-  integrity sha512-+E9yYUm3G4Em+0dg0ZmVRDXORowbvfYGQJ4yYvbep4TW6jmQQ/21zToaHrAKLFDGOVH63y1hTjCyZOSFBk0KfQ==
   dependencies:
     jimp "^0.8.4"
 
