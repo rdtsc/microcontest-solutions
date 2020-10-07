@@ -110,7 +110,7 @@ module.exports = async (config, workerLimit = 1) =>
     {
       width: 30,
       clear: true,
-      complete: '▉',
+      complete: '█',
       incomplete: '░',
       renderThrottle: 100,
       total: conductor.jobsQueue.length
