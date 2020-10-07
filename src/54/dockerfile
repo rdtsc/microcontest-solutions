@@ -1,0 +1,7 @@
+FROM python:3.8-buster
+
+WORKDIR /app
+
+RUN set -x && pip install numpy==1.19.2 imageio==2.9.0
+
+ENTRYPOINT ["core/decode.py"]

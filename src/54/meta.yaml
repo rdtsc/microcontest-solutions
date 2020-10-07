@@ -1,0 +1,34 @@
+id: 54
+name: Homemade Algorithm
+category: Cryptography
+url: 'http://www.microcontest.com/contest.php?id=54&lang=en'
+inputs:
+  - name: kernel
+    type: String
+    cType: char*
+    description: 'The key, which is the kernel, in PNG, encoded in base64'
+  - name: kernel_amplitude
+    type: Real
+    cType: float
+    description: Constant for the the provided formula
+  - name: kernel_min
+    type: Real
+    cType: float
+    description: Constant for the the provided formula
+  - name: cypher
+    type: String
+    cType: char*
+    description: 'The cypher, in PNG, encoded in base64'
+  - name: cypher_amplitude
+    type: Real
+    cType: float
+    description: Constant for the the provided formula
+  - name: cypher_min
+    type: Real
+    cType: float
+    description: Constant for the the provided formula
+outputs:
+  - name: number
+    type: Integer
+    cType: int
+    description: The number retrieved from the decrypted image
