@@ -46,14 +46,14 @@ an image corresponding to the normalization of this kernel in order to be
 viewable as an image with the full gray scale. Thus, you have to invert the
 normalization before performing your calculations with this formula:
 
-```
+```text
 kernel_to_use = kernel*kernel_amplitude/255 + kernel_min
 ```
 
 As you might have guessed, there is the same problem with the cypher. You have
 to use the following formula to invert its normalization:
 
-```
+```text
 cypher_to_use = cypher*cypher_amplitude/255 + cypher_min
 ```
 
