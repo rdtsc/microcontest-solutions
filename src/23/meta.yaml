@@ -1,0 +1,70 @@
+id: 23
+name: Satellite Geolocation
+category: Physics
+url: 'http://www.microcontest.com/contest.php?id=23&lang=en'
+inputs:
+  - name: sat1lat
+    type: Real
+    cType: float
+    description: Latitude of satellite 1 in degrees
+  - name: sat1long
+    type: Real
+    cType: float
+    description: Longitude of satellite 1 in degrees
+  - name: date1
+    type: Integer
+    cType: int
+    description: Signal timestamp (seconds portion) from satellite 1
+  - name: msec1
+    type: Real
+    cType: float
+    description: Signal timestamp (milliseconds portion) from satellite 1
+  - name: sat2lat
+    type: Real
+    cType: float
+    description: Latitude of satellite 2 in degrees
+  - name: sat2long
+    type: Real
+    cType: float
+    description: Longitude of satellite 2 in degrees
+  - name: date2
+    type: Integer
+    cType: int
+    description: Signal timestamp (seconds portion) from satellite 2
+  - name: msec2
+    type: Real
+    cType: float
+    description: Signal timestamp (milliseconds portion) from satellite 2
+  - name: sat3lat
+    type: Real
+    cType: float
+    description: Latitude of satellite 3 in degrees
+  - name: sat3long
+    type: Real
+    cType: float
+    description: Longitude of satellite 3 in degrees
+  - name: date3
+    type: Integer
+    cType: int
+    description: Signal timestamp (seconds portion) from satellite 3
+  - name: msec3
+    type: Real
+    cType: float
+    description: Signal timestamp (milliseconds portion) from satellite 3
+  - name: date
+    type: Integer
+    cType: int
+    description: Receiver timestamp (seconds portion)
+  - name: msec
+    type: Real
+    cType: float
+    description: Receiver timestamp (milliseconds portion)
+outputs:
+  - name: latitude
+    type: Real
+    cType: float
+    description: Receiver latitude in degrees
+  - name: longitude
+    type: Real
+    cType: float
+    description: Receiver longitude in degrees
