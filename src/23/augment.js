@@ -11,11 +11,9 @@ module.exports = (args) =>
 
   for(const satellite of args.satellites)
   {
-    const timeOfFlight = args.receiver.timestamp - satellite.timestamp;
+    assert(satellite.latency > 0);
 
-    assert(timeOfFlight > 0);
-
-    satellite.r = timeOfFlight / 1000 * args.metrics.speedOfLight;
+    satellite.r = satellite.latency * args.metrics.speedOfLight;
     satellite.x = radius * cos(satellite.latitude) * cos(satellite.longitude);
     satellite.y = radius * cos(satellite.latitude) * sin(satellite.longitude);
     satellite.z = radius * sin(satellite.latitude);

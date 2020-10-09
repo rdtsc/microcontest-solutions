@@ -18,23 +18,25 @@ module.exports = (args) =>
     speedOfLight: 299792
   };
 
+  const receiver =
+  {
+    timestamp: get('date') + (get('msec') / 1000)
+  };
+
   const satellites = [];
 
   for(let i = 1; i <= 3; ++i)
   {
+    const signalTimestamp = get(`date${i}`) + (get(`msec${i}`) / 1000);
+
     satellites.push
     ({
+      latency:   receiver.timestamp - signalTimestamp,
       altitude:  metrics.orbitRadius,
       latitude:  get(`sat${i}lat`),
-      longitude: get(`sat${i}long`),
-      timestamp: (get('date') - get(`date${i}`)) * 1000 + get(`msec${i}`),
+      longitude: get(`sat${i}long`)
     });
   }
 
-  const receiver =
-  {
-    timestamp: get('msec')
-  };
-
-  return {metrics, satellites, receiver};
+  return {metrics, receiver, satellites};
 };
