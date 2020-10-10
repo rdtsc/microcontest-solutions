@@ -1,0 +1,38 @@
+id: 27
+name: Geolocation Without Satellite
+category: Physics
+url: 'http://www.microcontest.com/contest.php?id=27&lang=en'
+inputs:
+  - name: date
+    type: String
+    cType: char*
+    description: Current date in "dd/mm" (day/month) format
+  - name: hauteur
+    type: Real
+    cType: float
+    description: Length of your stick
+  - name: ombre
+    type: Real
+    cType: float
+    description: Length of the stick's shadow when it is shortest
+  - name: orientation
+    type: String
+    cType: char*
+    description: >-
+      String that can contain either "nord" (north) or "sud" (south) and
+      corresponds to the direction of the Sun
+  - name: heure
+    type: Real
+    cType: float
+    description: >-
+      Time on your watch when the shadow is the shortest (for example if
+      "heure = 14.5", it is 2:30 PM on your watch)
+outputs:
+  - name: latitude
+    type: Real
+    cType: float
+    description: Latitude of your location in degrees (counted positively towards north)
+  - name: longitude
+    type: Real
+    cType: float
+    description: Longitude of your position in degrees (counted positively towards east)
