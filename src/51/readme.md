@@ -74,7 +74,7 @@ dimensions and initial conditions of the system:
 
 - `g`: `9.81m/s^2`
 
-- `m`: 5kg`
+- `m`: `5kg`
 
 - <img src="./extra/14.png" alt="\dot\theta_0">:  `0°/s`
   (initial rotational speed)
