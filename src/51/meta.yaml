@@ -1,0 +1,26 @@
+id: 51
+name: Pendulum ODE I
+category: Physics
+url: 'http://www.microcontest.com/contest.php?id=51&lang=en'
+inputs:
+  - name: l
+    type: Real
+    cType: float
+    description: Bar length in meters
+  - name: theta_0
+    type: Real
+    cType: float
+    description: Initial angle in degrees
+outputs:
+  - name: theta
+    type: String
+    cType: char*
+    description: Evaluations of the function in radians
+  - name: dtheta
+    type: String
+    cType: char*
+    description: Evaluations of the function in radians per second
+  - name: ddtheta
+    type: String
+    cType: char*
+    description: Evaluations of the function in radians per second^2
