@@ -108,15 +108,15 @@ ddtheta = "0.10894;-0.10094;0.08802;-0.07083;0.05020;-0.02712;0.00273;0.02179;-0
 
 ### Inputs
 
-| Variable Name | Type | C Type | Description              |
-| ------------- | ---- | ------ | ------------------------ |
-| **l**         | Real | float  | Bar length in meters     |
-| **theta_0**   | Real | float  | Initial angle in degrees |
+| Variable Name | Type | C Type | Description                                                        |
+| ------------- | ---- | ------ | ------------------------------------------------------------------ |
+| **l**         | Real | float  | Bar length in meters                                               |
+| **theta_0**   | Real | float  | Initial angle <img src="./extra/13.png" alt="\theta_0"> in degrees |
 
 ### Outputs
 
-| Variable Name | Type   | C Type | Description                                         |
-| ------------- | ------ | ------ | --------------------------------------------------- |
-| **theta**     | String | char*  | Evaluations of the function in radians              |
-| **dtheta**    | String | char*  | Evaluations of the function in radians per second   |
-| **ddtheta**   | String | char*  | Evaluations of the function in radians per second^2 |
+| Variable Name | Type   | C Type | Description                                                                                         |
+| ------------- | ------ | ------ | --------------------------------------------------------------------------------------------------- |
+| **theta**     | String | char*  | Evaluations of the function <img src="./extra/15.png" alt="\theta(t)"> in radians                   |
+| **dtheta**    | String | char*  | Evaluations of the function <img src="./extra/16.png" alt="\dot\theta(t)"> in radians per second    |
+| **ddtheta**   | String | char*  | Evaluations of the function <img src="./extra/17.png" alt="\ddot\theta(t)"> in radians per second^2 |

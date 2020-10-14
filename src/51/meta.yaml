@@ -10,17 +10,17 @@ inputs:
   - name: theta_0
     type: Real
     cType: float
-    description: Initial angle in degrees
+    description: Initial angle theta0 in degrees
 outputs:
   - name: theta
     type: String
     cType: char*
-    description: Evaluations of the function in radians
+    description: Evaluations of the function theta(t) in radians
   - name: dtheta
     type: String
     cType: char*
-    description: Evaluations of the function in radians per second
+    description: Evaluations of the function theta'(t) in radians per second
   - name: ddtheta
     type: String
     cType: char*
-    description: Evaluations of the function in radians per second^2
+    description: Evaluations of the function theta"(t) in radians per second^2
