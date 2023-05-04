@@ -1,4 +1,6 @@
-# µContest Solutions
+# µContest (Defunct) Solutions
+
+**As of early 2023, µContest has been shut down.**
 
 This repository houses my personal solutions to
 [µContest's programming challenges][challenges].
@@ -47,10 +49,12 @@ Saved in /home/user/microcontest-solutions/auth.json
 To keep things consistent, the following tasks are provided for automating
 initial setup and solution boilerplate creation:
 
-- [mc setup](#task-mc-setup)
-- [mc init](#task-mc-init)
+- [~~mc setup~~](#task-mc-setup)
+- [~~mc init~~](#task-mc-init)
 
-#### Task: `mc setup`
+#### Task: ~~`mc setup`~~
+
+**No longer applicable, µContest is gone.**
 
 The `mc setup` task is responsible for generating a µContest authentication
 token and should only be executed upon initial setup or when site account
@@ -88,7 +92,9 @@ $ yarn mc setup
 If the authentication token needs to be regenerated, destroy the `./auth.json`
 file and execute `mc setup` again.
 
-#### Task: `mc init`
+#### Task: ~~`mc init`~~
+
+**No longer applicable, µContest is gone.**
 
 The `mc init` task is responsible for creating solution boilerplate files and
 currently includes the following actions:
@@ -192,7 +198,7 @@ All referenced/bundled dependencies, product names, trademarks, logos, and
 images are property of their respective owners.
 
 
-[challenges]: http://www.microcontest.com/contests.php
+[challenges]: https://web.archive.org/web/20220929051612/http://www.microcontest.com/contests.php?lang=en
               "µContest"
 
 [mit]: http://opensource.org/licenses/MIT/
